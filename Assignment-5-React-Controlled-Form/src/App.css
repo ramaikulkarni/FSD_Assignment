@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+}
+.container {
+  text-align: center;
+  padding: 40px;
+}
+input {
+  display: block;
+  width: 300px;
+  padding: 12px;
+  margin: 15px auto;
+}
+.output {
+  background: white;
+  width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
