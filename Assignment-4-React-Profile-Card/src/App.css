@@ -3,10 +3,12 @@ body {
   font-family: Arial, sans-serif;
   background: #f2f2f2;
 }
+
 .container {
   text-align: center;
   padding: 40px;
 }
+
 .card {
   background: white;
   width: 300px;
@@ -15,8 +17,9 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 12px #aaa;
 }
+
 .card img {
   width: 150px;
   height: 150px;
-  border-radius: 50%%;
+  border-radius: 50%;
 }

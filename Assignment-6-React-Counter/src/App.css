@@ -1,16 +1,37 @@
 body {
-  font-family: Arial;
+  margin: 0;
+  font-family: Arial, sans-serif;
   background: #f2f2f2;
 }
+
 .container {
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #aaa;
   text-align: center;
-  padding: 50px;
 }
-h2 {
-  font-size: 50px;
+
+h1 {
+  
+  margin-bottom: 30px;
+  font-size: 32px;
+  white-space: nowrap;
+
 }
+
+.counter h2 {
+  font-size: 48px;
+  margin: 20px;
+}
+
 button {
+  margin: 8px;
   padding: 12px 20px;
-  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
