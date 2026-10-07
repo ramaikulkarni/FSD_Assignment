@@ -1,30 +1,7 @@
-import { useState } from "react";
-import "./App.css";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div className="container">
-      <h1>React Counter App</h1>
-
-      <div className="counter">
-        <h2>{count}</h2>
-
-        <button onClick={() => setCount(count + 1)}>
-          Increment
-        </button>
-
-        <button onClick={() => setCount(count - 1)}>
-          Decrement
-        </button>
-
-        <button onClick={() => setCount(0)}>
-          Reset
-        </button>
-      </div>
-    </div>
-  );
-}
-
-export default App;
+export default defineConfig({
+  plugins: [react()],
+  base: "./"
+});
